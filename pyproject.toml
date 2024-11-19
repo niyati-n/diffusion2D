@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "niyati_diffusion2d"
+authors = [
+    {name = "Niyati", email = "st191812@stud.uni-stuttgart.de"},
+]
+description = "diffusion2D"
+readme = "README.md"
+requires-python = ">=3.6"
+keywords = ["one", "two"]
+license = {text = "BSD-3-Clause"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    'importlib-metadata; python_version<"3.4"',
+     'numpy', 
+     'matplotlib',
+]
+version="0.1"
+
